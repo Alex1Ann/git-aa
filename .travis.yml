@@ -11,7 +11,7 @@ cache:
 
 addons:
   sonarcloud:
-    organization: "Alex1Ann"
+    organization: "randyrh91"
     token: ${SONAR_TOKEN}
 
 script:
