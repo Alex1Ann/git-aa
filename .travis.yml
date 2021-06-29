@@ -9,3 +9,10 @@ cache:
   directories:
   - $HOME/.m2
 
+addons:
+  sonarcloud:
+    organization: "Alex1Ann"
+    token: ${SONAR_TOKEN}
+
+script:
+  - mvn clean install org.jacoco:jacoco-maven-plugin:prepare-agent sonar:sonar
