@@ -12,7 +12,7 @@ cache:
 addons:
   sonarcloud:
     organization: "Alex1Ann"
-    token: 2b7c377b81f029a00893eca243f72287ad3a894d
+    token: "2b7c377b81f029a00893eca243f72287ad3a894d"
 
 script:
   - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar -Dsonar.projectKey=Alex1Ann_git-aa
